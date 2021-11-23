@@ -35,3 +35,5 @@ http://purl.org/goodrelations/v1#Sell
 http://purl.org/goodrelations/v1#Buy
 ```
 For `itemOffered` Head over to Wikipedia.org. Search for the main topic of what you do. My type was `Service`. Your's may be `Product` It just really depends!
+
+Anything else, [just ask!](https://github.com/denverprophitjr/Website-Scemas/discussions "Ask Questions")
