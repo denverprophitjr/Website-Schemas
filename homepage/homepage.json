@@ -124,7 +124,7 @@
     "openingHours":"Mo,Tu,We,Th,Fri 09:00-15:00",
     "priceRange":"$$",
     "hasMap":"https://goo.gl/maps/WaWh1A2N4u1KCvnu6",
-    "currenciesAccepted":"EUR",
+    "currenciesAccepted":"EUR, USD",
     "paymentAccepted":"Cash, Credit Card"
   }
 }
