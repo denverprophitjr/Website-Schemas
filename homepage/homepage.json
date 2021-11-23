@@ -1,29 +1,75 @@
 {
   "@context":"http://schema.org",
   "@type":"Organization",
+  "@id":"#organization",
   "description":"summary of the company (incorporating targeted keyword strategy)",
   "name":"name of company",
   "legalName":"legal name of company",
   "url":"homepage URL",
-  "logo":{
-    "@type":"ImageObject",
-    "@id":"#logo",
-    "url":"domain.com/assets/image/filename.***",
-    "caption":"branded slogan",
+  "brand":{
+    "@type":"Brand",
+    "name": "Your brand name",
+    "logo":{
+      "@type":"ImageObject",
+      "@id":"#logo",
+      "url":"domain.com/assets/image/filename.***",
+      "caption":"branded slogan",
+      "width":{
+        "@type":"QuantitativeValue",
+        "value":"500",
+        "unitCode":"E37"
+      },
+      "height":{
+        "@type":"QuantitativeValue",
+        "value":"500",
+        "unitCode":"E37"
+      },
+      "license":"http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "acquireLicensePage":"domain.com/copyright.html"
+    }
+  },
+  "photos":{
+    "@type":"Photograph",
+    "url":[
+      "https://domain.com/assets/image/filename1x1.***",
+      "https://domain.com/assets/image/filename.***",
+      "https://domain.com/assets/image/filename.***"
+    ],
+    "caption":"Photos of Acme Inc",
     "width":{
       "@type":"QuantitativeValue",
-      "value":"500",
+      "value":"1200",
       "unitCode":"E37"
     },
     "height":{
       "@type":"QuantitativeValue",
-      "value":"500",
+      "value":"800",
       "unitCode":"E37"
     },
+    "locationCreated":{
+      "@type":"PostalAddress",
+      "streetAddress":"address of headquarters",
+      "addressLocality":"city headquarters is located",
+      "addressRegion":"state abbreviation",
+      "postalCode":"ZIP Code",
+      "addressCountry":"country abbreviation"
+    },
+    "creator":{
+      "@id":"#organization"
+    },
+    "copyrightNotice":"Copyright(c) Acme Inc. All rights reserved.",
+    "copyrightYear":"2021",
     "license":"http://creativecommons.org/licenses/by-nc-nd/4.0/",
     "acquireLicensePage":"domain.com/copyright.html"
   },
-  "foundingDate":"year the company was founded",
+  "foundingDate":"1989-10-23",
+  "foundingLocation": {
+    "@type": "Place",
+    "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mexico Beach",
+    "addressRegion": "FL"
+    },
   "founders":[
     {
       "@type":"Person",
@@ -53,9 +99,9 @@
         "@type":"Place",
         "address":{
           "@type":"PostalAddress",
-          "addressLocality": "Mexico Beach",
-          "addressRegion": "FL",
-          "streetAddress": "3102 Highway 98"
+          "addressLocality":"Mexico Beach",
+          "addressRegion":"FL",
+          "streetAddress":"3102 Highway 98",
           "addressCountry":"USA"
         }
       },
