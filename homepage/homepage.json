@@ -1,0 +1,84 @@
+{
+  "@context":"http://schema.org",
+  "@type":"Organization",
+  "description":"summary of the company (incorporating targeted keyword strategy)",
+  "name":"name of company",
+  "legalName":"legal name of company",
+  "url":"homepage URL",
+  "logo":{
+    "@type":"ImageObject",
+    "@id":"#logo",
+    "url":"domain.com/assets/image/filename.***",
+    "caption":"branded slogan",
+    "width":{
+      "@type":"QuantitativeValue",
+      "value":"500",
+      "unitCode":"E37"
+    },
+    "height":{
+      "@type":"QuantitativeValue",
+      "value":"500",
+      "unitCode":"E37"
+    },
+    "license":"http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "acquireLicensePage":"domain.com/copyright.html"
+  },
+  "foundingDate":"year the company was founded",
+  "founders":[
+    {
+      "@type":"Person",
+      "name":"founder #1 (list all founders)",
+      "@id":"https://g.co/kgs/nyUqMR"
+    },
+    {
+      "@type":"Person",
+      "name":"founter #2 (list all founders)",
+      "@id":"https://g.co/kgs/nyUqMR"
+    }
+  ],
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"address of headquarters",
+    "addressLocality":"city headquarters is located",
+    "addressRegion":"state abbreviation",
+    "postalCode":"ZIP Code",
+    "addressCountry":"country abbreviation"
+  },
+  "contactPoint":[
+    {
+      "@type":"ContactPoint",
+      "telephone":"###-###-####",
+      "contactType":"Customer Support",
+      "areaServed":{
+        "@type":"Place",
+        "address":{
+          "@type":"PostalAddress",
+          "addressLocality": "Mexico Beach",
+          "addressRegion": "FL",
+          "streetAddress": "3102 Highway 98"
+          "addressCountry":"USA"
+        }
+      },
+      "availableLanguage":"English"
+    }
+  ],
+  "makesOffer":{
+    "@type":"Offer",
+    "businessFunction":"http://purl.org/goodrelations/v1#ProvideService",
+    "itemOffered":{
+      "@type":"Service",
+      "url":"http://www.productontology.org/id/Digital_marketing"
+    },
+    "sameAs":[
+      "https://facebook.com/###",
+      "https:/twitter.com/###",
+      "https://other/###"
+    ],
+    "telephone":"###-###-####",
+    "openingHours":"Mo,Tu,We,Th,Fri 09:00-15:00",
+    "priceRange":"$$",
+    "hasMap":"https://goo.gl/maps/WaWh1A2N4u1KCvnu6",
+    "currenciesAccepted":"EUR",
+    "paymentAccepted":"Cash, Credit Card"
+  }
+}
