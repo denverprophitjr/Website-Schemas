@@ -28,14 +28,11 @@
       "acquireLicensePage":"domain.com/copyright.html"
     }
   },
-  "photos":{
-    "@type":"Photograph",
-    "url":[
-      "https://domain.com/assets/image/filename1x1.***",
-      "https://domain.com/assets/image/filename.***",
-      "https://domain.com/assets/image/filename.***"
+  "image":{
+    "@type":"ImageObject",
+    "url": "https://domain.com/assets/image/filename***.png"
     ],
-    "caption":"Photos of Acme Inc",
+    "caption":"Social Image of Acme Inc",
     "width":{
       "@type":"QuantitativeValue",
       "value":"1200",
@@ -45,17 +42,6 @@
       "@type":"QuantitativeValue",
       "value":"800",
       "unitCode":"E37"
-    },
-    "locationCreated":{
-      "@type":"PostalAddress",
-      "streetAddress":"address of headquarters",
-      "addressLocality":"city headquarters is located",
-      "addressRegion":"state abbreviation",
-      "postalCode":"ZIP Code",
-      "addressCountry":"country abbreviation"
-    },
-    "creator":{
-      "@id":"#organization"
     },
     "copyrightNotice":"Copyright(c) Acme Inc. All rights reserved.",
     "copyrightYear":"2021",
