@@ -30,8 +30,7 @@
   },
   "image":{
     "@type":"ImageObject",
-    "url": "https://domain.com/assets/image/filename***.png"
-    ],
+    "url": "https://domain.com/assets/image/filename***.png",
     "caption":"Social Image of Acme Inc",
     "width":{
       "@type":"QuantitativeValue",
