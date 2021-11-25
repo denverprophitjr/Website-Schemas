@@ -8,7 +8,7 @@
   "url":"homepage URL",
   "brand":{
     "@type":"Brand",
-    "name": "Your brand name",
+    "name":"Your brand name",
     "logo":{
       "@type":"ImageObject",
       "@id":"#logo",
@@ -30,7 +30,7 @@
   },
   "image":{
     "@type":"ImageObject",
-    "url": "https://domain.com/assets/image/filename***.png",
+    "url":"https://domain.com/assets/image/filename***.png",
     "caption":"Social Image of Acme Inc",
     "width":{
       "@type":"QuantitativeValue",
@@ -48,13 +48,14 @@
     "acquireLicensePage":"domain.com/copyright.html"
   },
   "foundingDate":"1989-10-23",
-  "foundingLocation": {
-    "@type": "Place",
-    "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Mexico Beach",
-    "addressRegion": "FL"
-    },
+  "foundingLocation":{
+    "@type":"Place",
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"Mexico Beach",
+      "addressRegion":"FL"
+    }
+  },
   "founders":[
     {
       "@type":"Person",
