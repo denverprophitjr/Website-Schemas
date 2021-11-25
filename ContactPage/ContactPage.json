@@ -1,1 +1,29 @@
-{}
+{
+  "@context":"https://schema.org",
+  "@type":"ProfessionalService",
+  "name":"Name of Company",
+  "url":"URL of page",
+  "isPartOf":"/index.html#organization",
+  "contactPoint":[
+    {
+      "@type":"ContactPoint",
+      "contactType":"customer service",
+      "name":"name of contact point #1",
+      "description":"description of contact point #1",
+      "telephone":"phone number (include international country code prefix)",
+      "email":"email address",
+      "availableLanguage":"English",
+      "hoursAvailable":"hours contact point is open (i.e. Tu-Sa 12:00-18:00)",
+      "areaServed":{
+        "@type":"Place",
+        "address":{
+          "@type":"PostalAddress",
+          "addressLocality":"Mexico Beach",
+          "addressRegion":"FL",
+          "streetAddress":"3102 Highway 98",
+          "addressCountry":"USA"
+        }
+      }
+    }
+  ]
+}
