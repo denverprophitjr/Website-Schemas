@@ -1,6 +1,6 @@
 {
   "@context":"http://schema.org",
-  "@type":"Organization",
+  "@type":"ProfessionalService",
   "@id":"#organization",
   "description":"summary of the company (incorporating targeted keyword strategy)",
   "name":"name of company",
@@ -90,24 +90,6 @@
     "postalCode":"ZIP Code",
     "addressCountry":"country abbreviation"
   },
-  "contactPoint":[
-    {
-      "@type":"ContactPoint",
-      "telephone":"###-###-####",
-      "contactType":"Customer Support",
-      "areaServed":{
-        "@type":"Place",
-        "address":{
-          "@type":"PostalAddress",
-          "addressLocality":"Mexico Beach",
-          "addressRegion":"FL",
-          "streetAddress":"3102 Highway 98",
-          "addressCountry":"USA"
-        }
-      },
-      "availableLanguage":"English"
-    }
-  ],
   "makesOffer":{
     "@type":"Offer",
     "businessFunction":"http://purl.org/goodrelations/v1#ProvideService",
