@@ -1,1 +1,79 @@
-{}
+{
+  "@context":"http://schema.org/",
+  "@type":"AboutPage",
+  "name":"name of page (this can be similar to page title; incorporated targeted keywords if possible)",
+  "description":"description of page",
+  "isPartOf":"/index.html#organization",
+  "url":"About Us page URL",
+  "isicV4": "Find your isicV4 code at https://siccode.com/isic-code/",
+  "knowsAbout":{ "https://wikidata.org/wiki/Q189507", "wikidata.org/wiki/Q624902", "https://www.wikidata.org/wiki/Q180711" },
+  "publicAccess":"true/false only use one value",
+  "image":{
+    "@type":"ImageObject",
+    "url":[
+      "https://domain.com/assets/image/socialimage1x1.***",
+      "https://domain.com/assets/image/socialimage4x3.***",
+      "https://domain.com/assets/image/socialimage16x9.***"
+    ],
+    "caption":"Photos of Acme Inc",
+    "width":{
+      "@type":"QuantitativeValue",
+      "value":"1200",
+      "unitCode":"E37"
+    },
+    "height":{
+      "@type":"QuantitativeValue",
+      "value":"800",
+      "unitCode":"E37"
+    },
+    "locationCreated":{
+      "@type":"PostalAddress",
+      "streetAddress":"address of headquarters",
+      "addressLocality":"city headquarters is located",
+      "addressRegion":"state abbreviation",
+      "postalCode":"ZIP Code",
+      "addressCountry":"country abbreviation"
+    },
+    "creator":{
+      "@id":"https://domain.com/index.html#organization"
+    },
+    "copyrightNotice":"Copyright(c) Acme Inc. All rights reserved.",
+    "copyrightYear":"2021",
+    "license":"http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "acquireLicensePage":"https://domain.com/copyright.html"
+  },
+  "photos":{
+    "@type":"Photograph",
+    "url":[
+      "https://domain.com/assets/image/filename1x1.***",
+      "https://domain.com/assets/image/filename4x3.***",
+      "https://domain.com/assets/image/filename16x9.***"
+    ],
+    "caption":"Photos of Acme Inc",
+    "width":{
+      "@type":"QuantitativeValue",
+      "value":"1200",
+      "unitCode":"E37"
+    },
+    "height":{
+      "@type":"QuantitativeValue",
+      "value":"800",
+      "unitCode":"E37"
+    },
+    "locationCreated":{
+      "@type":"PostalAddress",
+      "streetAddress":"address of headquarters",
+      "addressLocality":"city headquarters is located",
+      "addressRegion":"state abbreviation",
+      "postalCode":"ZIP Code",
+      "addressCountry":"country abbreviation"
+    },
+    "creator":{
+      "@id":"https://domain.com/index.html#organization"
+    },
+    "copyrightNotice":"Copyright(c) Acme Inc. All rights reserved.",
+    "copyrightYear":"2021",
+    "license":"http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "acquireLicensePage":"https://domain.com/copyright.html"
+  },
+}
