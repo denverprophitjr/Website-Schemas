@@ -58,7 +58,23 @@
     "https://linkedin.com/#",
     "https://other..."
   ],
-  "image":"janedoe.jpg",
+  "image":{
+    "@type":"ImageObject",
+    "url":"https://domain.com/assets/image/filename***.png",
+    "caption":"Name of Person",
+    "width":{
+      "@type":"QuantitativeValue",
+      "value":"1200",
+      "unitCode":"E37"
+    },
+    "height":{
+      "@type":"QuantitativeValue",
+      "value":"800",
+      "unitCode":"E37"
+    },
+    "copyrightNotice":"Copyright(c) The person. All rights reserved.",
+    "copyrightYear":"2021"
+  },
   "hasOccupation":{
     "@type":"Occupation",
     "name":"Bookkeeper",
