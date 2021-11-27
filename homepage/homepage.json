@@ -6,6 +6,11 @@
   "name":"name of company",
   "legalName":"legal name of company",
   "url":"homepage URL",
+  "hasPart": {
+    "@type": "FaqPage",
+    "@id": "https://example.com/faqpage.html",
+    "url": "https://example.com/faqpage.html"
+  }
   "brand":{
     "@type":"Brand",
     "name":"Your brand name",
