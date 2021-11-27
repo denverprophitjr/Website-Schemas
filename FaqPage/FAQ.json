@@ -43,7 +43,12 @@
       }
     }
   ],
-  "isPartOf":"https://domain.com/index.html#organization",
+  "about": { 
+    "@type" : "ProfessionalService",
+    "name" : "The organization name",
+    "@id" : "https://example.com#organization",
+    "url":"https://example.com"
+  }
   "image":{
     "@type":"ImageObject",
     "url":[
