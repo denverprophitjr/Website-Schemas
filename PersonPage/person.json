@@ -1,1 +1,73 @@
-{}
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "@id":"https://g.co/kgs/nyUqMR",
+  "address":{
+    "@type":"PostalAddress",
+    "@id":"#personaddress",
+    "addressLocality":"Seattle",
+    "addressRegion":"WA",
+    "postalCode":"98052"
+  },
+  "homeLocation":{
+    "@id":"#personaddress"
+  },
+  "nationality":{
+    "@type":"Country",
+    "@id":"https://en.wikipedia.org/wiki/United_States",
+    "name":"United States of America"
+  },
+  "birthDate":{
+    "@type":"Date",
+    "value":"19680525T000000-0400"
+  },
+  "worksFor":{
+    "@id":"https://example.com/index.html#organization"
+  },
+  "memberOf":{
+    "@id":"https://example.com/index.html#organization"
+  },
+  "naics":"Replace with code from https://www.naics.com/search/",
+  "isicV4":"Replace with code from https://siccode.com/isic-code-lookup-directory",
+  "knowsLanguage":{
+    "@type":"Language",
+    "indentifier":"en-US",
+    "name":"English"
+  },
+  "colleague":[
+    "http://www.xyz.edu/students/alicejones.html",
+    "http://www.xyz.edu/students/bobsmith.html"
+  ],
+  "knows":[
+    "list linkedin / Google KG URL of important people they know",
+    "second entry"
+  ],
+  "follows":[
+    "list of linkedin / Google KG urls they follow on social media",
+    "second entry"
+  ],
+  "jobTitle":{
+    "@type":"DefinedTerm",
+    "inDefinedTermSet":"Search https://www.bls.gov/oes/current/oes_stru.htm",
+    "termCode":"Usually within the left most column",
+    "name":"Bookkeeper",
+    "url":"the FULL url to the defined job link."
+  },
+  "sameAs":[
+    "https:twitter.com/#",
+    "https://linkedin.com/#",
+    "https://other..."
+  ],
+  "image":"janedoe.jpg",
+  "hasOccupation":{
+    "@type":"Occupation",
+    "name":"Bookkeeper",
+    "educationRequirements":"Associate’s Degree in Accounting"
+  },
+  "honorificPrefix":"Ms.",
+  "honorificSuffix":"II",
+  "givenName":"Jane",
+  "familyName":"Doe",
+  "name":"Ms.Jane Doe II",
+  "url":"http://www.example.com/authors/name-here.html"
+}
