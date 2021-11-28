@@ -3,7 +3,7 @@
   "@type":"ProfessionalService",
   "name":"Name of Company",
   "url":"URL of page",
-  "isPartOf":"/index.html#organization",
+  "isPartOf":"https://example.com/index.html#organization",
   "contactPoint":[
     {
       "@type":"ContactPoint",
