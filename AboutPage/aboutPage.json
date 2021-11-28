@@ -3,7 +3,7 @@
   "@type":"AboutPage",
   "name":"name of page (this can be similar to page title; incorporated targeted keywords if possible)",
   "description":"description of page",
-  "isPartOf":"/index.html#organization",
+  "isPartOf":"https://example.com/index.html#organization",
   "url":"About Us page URL",
   "isicV4": "Find your isicV4 code at https://siccode.com/isic-code/",
   "knowsAbout":{ "https://wikidata.org/wiki/Q189507", "wikidata.org/wiki/Q624902", "https://www.wikidata.org/wiki/Q180711" },
