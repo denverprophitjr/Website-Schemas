@@ -1,6 +1,6 @@
 {
   "projectName": "Website-Schemas",
-  "projectOwner": "dprophitjr",
+  "projectOwner": "denverprophitjr",
   "files": [
     "Contributors.md"
   ],
@@ -8,5 +8,18 @@
   "commit": false,
   "contributorsPerLine": 7,
   "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
-  "contributors": []
+  "contributors": [
+    {
+      "login": "inetbiz",
+      "name": "Denver Prophit Jr.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3696477?v=4",
+      "profile": "https://denverprophit.us/",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
