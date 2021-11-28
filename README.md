@@ -1,10 +1,10 @@
 ![Website Schemas](website-schemas.png)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+![GitHub contributors](https://img.shields.io/github/contributors/denverprophitjr/Website-Schemas?color=blue&style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/denverprophitjr/Website-Schemas?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/denverprophitjr/Website-Schemas?style=for-the-badge) ![Twitter Follow](https://img.shields.io/twitter/follow/DenverProphitJr?color=blue&logoColor=blue&style=for-the-badge)
+
 # Website Schemas
 Create website schemas that define your business or organization. All examples are in **JSON-LD** format. To include in your website code, you have to indicate you want to load a script like this: `<script type="application/ld+json">The code here</script>` In production mode, you ought to minify the "code". You can go to https://codebeautify.org/jsonminifier to accomplish this. Exclude the "<script type application/ld+json"> and ending </script> from the minification. Just the content of the code.
 ## Contributors
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
-<!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
 TOC
 ---
